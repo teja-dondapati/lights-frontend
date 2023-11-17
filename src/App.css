@@ -1,0 +1,29 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.light-string {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bulb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.lit-up {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
